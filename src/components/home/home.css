@@ -1,0 +1,551 @@
+.home-page {
+  position: relative;
+}
+
+.netflix-navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  /* Other styling for your navbar */
+  z-index: 1;
+  /* Ensure the navbar is above the image */
+}
+
+.hero-section {
+  position: relative;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+
+}
+
+.hero-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.8) 100%);
+  z-index: 0;
+}
+
+
+.center-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+.netflix-title h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+@media only screen and (max-width: 425px) {
+  .netflix-title h1 {
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 37rem;
+  }
+}
+
+.netflix-title p {
+
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.text-section {
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  text-align: center;
+}
+
+.search-bar input {
+  background-color: rgb(0 0 0 / 62%);
+  border: none;
+  padding: 14px;
+  color: white;
+  width: 346px;
+
+
+}
+
+.search-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Rest of your existing styles */
+
+@media (max-width: 768px) {
+
+  /* Change the breakpoint as needed */
+  .center-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
+.hero-divider {
+
+
+  width: 100%;
+  height: 0.5rem;
+  position: absolute;
+  /* bottom: -0.5rem; */
+  background-color: rgb(35, 35, 35);
+}
+
+.hero-setion2 {
+  background-color: black;
+}
+
+.hero-title {
+  margin-top: 15rem;
+  color: white;
+
+}
+
+.hero-title h1 {
+  margin-top: 15rem;
+  color: white;
+  font-size: 3.5rem;
+}
+
+.hero-title p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 960px) {
+  .default-ltr-cache-7cljuy {
+    padding-left: 0.375rem;
+  }
+}
+
+.default-ltr-cache-7cljuy {
+  -webkit-flex-basis: 50%;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  padding: 0;
+  z-index: 1;
+}
+
+.default-ltr-cache-bjn8wh {
+  position: relative;
+}
+
+.default-ltr-cache-1d3w5wq {
+  width: 100%;
+}
+
+.default-ltr-cache-m5f3qu {
+  z-index: -1;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  max-width: 75%;
+  max-height: 55%;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+.default-ltr-cache-7cljuy {
+  -webkit-flex-basis: 50%;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  padding: 0;
+  z-index: 1;
+  position: relative;
+}
+
+.default-ltr-cache-7cljuy {
+  margin-top: 7rem;
+  width: 100%;
+  margin-bottom: 7rem;
+}
+
+/* hero section 3 css start here ? */
+.hero-section3 {
+  background-color: black;
+  color: white;
+  padding: 4.5rem;
+}
+
+@media screen and (min-width: 960px) {
+  .default-ltr-cache-vgp0nn {
+    padding-right: 0.375rem;
+  }
+}
+
+.default-ltr-cache-vgp0nn {
+  -webkit-flex-basis: 50%;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  padding: 0;
+  z-index: 1;
+}
+
+.default-ltr-cache-bjn8wh {
+  position: relative;
+}
+
+.default-ltr-cache-1d3w5wq {
+  width: 100%;
+}
+
+@media screen and (min-width: 1280px) {
+  .default-ltr-cache-xfttou {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .default-ltr-cache-xfttou {
+    padding: 0.5rem 0.75rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .default-ltr-cache-xfttou {
+    padding: 0.35rem 0.75rem;
+  }
+}
+
+.default-ltr-cache-xfttou {
+  z-index: -1;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  bottom: 8%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin: 0 auto;
+  background: rgb(0, 0, 0);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 60%;
+  min-width: 15rem;
+  padding: 0.25rem 0.65rem;
+  border: 2px solid rgba(128, 128, 128, 0.7);
+  box-shadow: 0 0 2em 0 rgb(0, 0, 0);
+  border-radius: 0.75rem;
+  z-index: 1;
+}
+
+.default-ltr-cache-1cn8kex {
+  margin: 0 1rem 0 0;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .default-ltr-cache-1t1z3a4 {
+    height: 5rem;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .default-ltr-cache-1t1z3a4 {
+    height: 4.5rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .default-ltr-cache-1t1z3a4 {
+    height: 4rem;
+  }
+}
+
+.default-ltr-cache-1t1z3a4 {
+  height: 3rem;
+}
+
+.default-ltr-cache-tcf860 {
+  text-align: left;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  margin: 0.3rem 0;
+}
+
+@media screen and (min-width: 600px) {
+  .default-ltr-cache-162uqtg {
+    font-size: 1rem;
+  }
+}
+
+.default-ltr-cache-162uqtg {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.default-ltr-cache-44ib4m {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #0071eb;
+}
+
+@media screen and (min-width: 600px) {
+  .default-ltr-cache-44ib4m {
+    font-size: 0.875rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .default-ltr-cache-162uqtg {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .default-ltr-cache-1q4up1i {
+    height: 3.75rem;
+  }
+}
+
+.default-ltr-cache-1q4up1i {
+  width: 3rem;
+  height: 3rem;
+  outline: 2px solid rgb(0, 0, 0);
+  outline-offset: -2px;
+  display: block;
+  background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  content: "";
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.hero3-title h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.hero3-title p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.hero3-title {
+
+  margin-top: 7rem;
+}
+
+
+
+/* hero section4 start here ? */
+.hero-section4 {
+  background-color: black;
+  color: white;
+  padding: 4.5rem;
+}
+
+.hero4-title h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.hero4-title p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+/* hero section 5 start here  */
+.hero-section5 {
+  background-color: black;
+  color: white;
+  padding: 4.5rem;
+}
+
+.hero5-title h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.hero5-title p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.hero5-image img {
+  width: 100%;
+  height: auto;
+}
+
+/* FaQ  css start here ? */
+.hero-section6 {
+  background-color: black;
+  color: white;
+  padding: 4.5rem;
+}
+
+.faq-title h1 {
+  font-size: 3.5rem;
+}
+
+.accordion-flush .accordion-item .accordion-button,
+.accordion-flush .accordion-item .accordion-button.collapsed {
+  border-radius: 0;
+  font-size: 2.3rem;
+  background: #414141;
+  color: white;
+  border-bottom: 7px solid black;
+}
+
+.accordion-body {
+  padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
+  font-size: 1.5rem;
+  background-color: #414141;
+  color: white;
+  font-weight: 400;
+}
+
+.center-bar input {
+  background-color: #414141;
+  padding: 1.5rem;
+
+}
+
+.btn-cst {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 9px;
+
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* footer start here  */
+/* *** Footer ***/
+.netflix-footer {
+  background-color: black;
+}
+
+.footer .btn.btn-social {
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--light);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 35px;
+  transition: .3s;
+}
+
+.footer .btn.btn-social:hover {
+  color: var(--primary);
+  border-color: var(--light);
+}
+
+.footer .btn.btn-link {
+  display: block;
+  margin-bottom: 5px;
+  padding: 0;
+  text-align: left;
+  font-size: 15px;
+  font-weight: normal;
+  text-transform: capitalize;
+  transition: .3s;
+  color: white;
+}
+
+.footer .btn.btn-link::before {
+  position: relative;
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+  letter-spacing: 1px;
+  box-shadow: none;
+}
+
+.footer .form-control {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.footer .copyright {
+  padding: 25px 0;
+  font-size: 15px;
+  border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .copyright a {
+  color: var(--light);
+}
+
+.footer .footer-menu a {
+  margin-right: 15px;
+  padding-right: 15px;
+  border-right: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer .footer-menu a:last-child {
+  margin-right: 0;
+  padding-right: 0;
+  border-right: none;
+}

@@ -1,0 +1,17 @@
+.navbar-brand img{
+                  width: 150px;
+}
+.btn-cust {
+                  background-color: #C11119;
+                  color: white;
+                  width: 100%;
+                  font-weight: 500;
+                  font-size: 0.875rem;
+                  cursor: pointer;
+    padding: 0.25rem 1rem;
+}
+.btn-cust:hover {
+                  transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+                  background: rgb(149, 11, 18);
+                  color: white;
+}
